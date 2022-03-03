@@ -21,13 +21,18 @@ body {
 }
 .box {
     display: flex;
-    padding: 100px;
+    padding: 50px;
     justify-content: space-between;
 }
 .top {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     display: flex;
+    gap: 10px;
+    padding: ;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 10px;
 }
 
 .main-header {
@@ -124,7 +129,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    border-color: #F9FAF8;
+    border-color: #21c1cc;
     padding: 8px 18px;
 }
 .action {
@@ -134,7 +139,9 @@ body {
 .box-two {
     display: flex;
     flex-direction: column;
-    font-size: large;
+    font-size: larger;
+    gap: 10px;
+    
 }
 .signup {
     display: flex;
@@ -142,6 +149,7 @@ body {
     padding: 50px;
     border-radius: 10px;
     gap: 100px;
+    align-items: center;
 }
 .footer {
     display: flex;
